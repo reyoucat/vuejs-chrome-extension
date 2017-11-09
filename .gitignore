@@ -15,3 +15,5 @@ yarn-error.log
 extension-src/dist
 extension-src.pem
 extension-src.crx
+/.editorconfig
+/package-lock.json
