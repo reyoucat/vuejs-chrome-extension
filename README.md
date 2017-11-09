@@ -2,6 +2,8 @@
 
 > A chrome extension made in Vue.js project sample.
 
+![image](https://user-images.githubusercontent.com/8119974/32597321-a3dbafc6-c579-11e7-9c57-d91a9dd35a46.png)
+
 ## Build Setup
 
 ``` bash
