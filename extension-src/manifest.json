@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "vuejs-chrome-extension",
+  "description": "A chrome extension made in Vue.js project sample.",
+  "version": "1.0.0",
+
+  "icons": {
+    "16": "./assets/logo.png",
+    "48": "./assets/logo.png",
+    "128": "./assets/logo.png"
+  },
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+  "web_accessible_resources" : [
+    "*.js"
+  ],
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "./assets/logo.png",
+    "default_popup": "./dist/popup.html",
+    "default_title": "vuejs-chrome-extension-sample Click!"
+  }
+}
